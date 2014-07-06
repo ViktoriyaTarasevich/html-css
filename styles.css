@@ -1,0 +1,86 @@
+header,
+footer,
+nav{
+	display: block;
+	
+}
+
+body{
+	background:#ffffff;
+	margin: 0;
+}
+
+header{
+  	position: absolute;
+  	top: 0cm;
+}
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: 'fjalla_oneregular';
+	color: #5c5c5c;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+
+pre {
+	display : inline;
+	font-size: 12px;
+}
+div.menu nav.main_menu  li {
+	display: inline;
+}
+hgroup.site_name{
+	display: inline;
+}
+
+
+div.top_line {
+  background-color: rgb( 92, 92, 92 );
+ 
+  width: 41.31cm;
+  height: 0.176cm;
+  z-index: 3;
+}
+a{
+	text-decoration: none;
+}
+.button_home > a{
+	
+	background: #eee;
+	color: #fff;
+	background: #e24f43;
+	border-radius: 3px;
+	
+}
+
+footer{
+	overflow:hidden;
+	padding: 60px 0;
+	border-top: 1px solid #dfdfdf;
+	position: absolute;
+    bottom: 0px;
+   
+}
+footer a{
+	margin-right:30px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+footer p {
+    font-size: 14px;
+    display : block;
+    color: #888; margin-top: 24px;
+}
+
+div.column{
+	display:inline;
+}
+
+div.row ul li{
+display: inline;
+}
