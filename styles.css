@@ -7,7 +7,6 @@
     url('./fonts/fjallaone-regular-webfont.svg#fjalla_oneregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 @font-face {
     font-family: 'source_sans_proregular';
@@ -23,7 +22,24 @@ header,
 footer{
 	display: block;
 }
+h1, h2, h3, h4, h5, h6{
+    margin: 0;font-family: 'fjalla_oneregular';
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+h1{ font-size: 22px; }
+h2{ font-size: 20px;}
+h3{ font-size: 18px;}
+h4{ font-size: 16px;}
+h5{ font-size: 14px;}
+h6{ font-size: 8px; text-transform: none; color: #a5a5a5;}
+p{ font-size: 14px; font-family: 'source_sans_proregular'; color: #a5a5a5; margin-right:0; margin-bottom: 15px; line-height: 24px;}
 
+a{
+    transition:all 1s;
+    color: #a5a5a5;
+}
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -34,21 +50,14 @@ body{
     margin-right:  19.09%;
     margin-top: 0;
 }
-
-
+ul{
+    padding: 0;
+}
 header{
   	top: 0;
     margin-top: 0;
 }
 
-h1, h2, h3, h4, h5, h6{
-	margin: 0;
-	font-family: 'fjalla_oneregular';
-    font-weight: lighter;
-	color: #5c5c5c;
-	text-transform: uppercase;
-	padding-bottom: 15px;
-}
 
 .form-control {
     background-color: #ffffff;
@@ -80,9 +89,11 @@ a{
 footer{
     padding: 0;
 	border-top: 1px solid #dfdfdf;
-    position:absolute;
-    bottom:0;
-    height:60px;
+    position:relative;
+    height:50px;
+    bottom:0px;
+    margin-bottom:0px;
+    padding-left: 7px;
 
 }
 footer a{
@@ -103,22 +114,69 @@ footer p {
 div.column{
 	display:inline;
 }
-<!--
+
 div.row ul li{
-display: block;
-                    float: left;
-                    padding: 7px;
-                    margin-right: 4px;
-                    font-style: italic;
-                    color: #cccccc;
+    display: block;
+    float: left;
+    padding: 7px;
+    margin-right: 4px;
+    color: #cccccc;
+}
+img {
+    width:auto;
+
+}
+.box1, .box2, .box3, .box4 {
+    width: 50%;
+    height: 220px;
+
+    float: left;
+    position: relative;
+}
+.box1{
+    background: url(./images/1.png);
+}
+.box2{
+    background: url(./images/2.png);
+}
+.box3{
+    background: url(./images/3.png);
+}
+.box4{
+    background: url(./images/4.png);
+}
+.radi-c1 {
+    border-radius: 5px 0 0 0;
+}
+.banner-item h3 {
+    text-transform: uppercase;
+    display: inline-block;
+    background: #000 !important;
+    padding: 10px;
+    color: #fff;
+    background: black;
+    position: absolute;
+    bottom: 0;
+}
+div.banner {
+    background-repeat: no-repeat;
+    background-image: url(./images/banner.jpg);
+    height: 440px;
+    border-radius: 5px;
 }
 
+div.banner-item {
+    border-radius: 5px;
+}
+
+li.button_home{
+
+}
 div.row ul{
 	 display: block;
-                    list-style: none outside none;
-                   overflow: auto;
-                   white-space: nowrap;
-}-->
+     list-style: none outside none;
+     overflow: auto;
+}
 div.name_form,
 div.email_form{
 	display: inline;
@@ -162,7 +220,7 @@ div.site_name{
     width: 25%;
 }
 div.site_name li{
-    margin-top: 0;
+    margin-top: 0px;
     display: inline-block;
     min-height: 1px;
     padding: 0px 0;
@@ -171,9 +229,11 @@ div.site_name li{
 div.menu{
     display: inline;
     position: relative;
+    padding-top: 27px;
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
+    margin-top: -15px;
 }
 div.menu nav{
     display: inline;
@@ -208,7 +268,6 @@ div.col{
     background-color: #ffffff;
     border: 1px solid #dddddd;
     border-radius: 4px;
-    -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out ;
     display: inline-block;
     position: relative;
