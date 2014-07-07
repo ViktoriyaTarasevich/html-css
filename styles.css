@@ -31,11 +31,13 @@ hgroup.site_name{
 	display: inline;
 }
 
+hgroup{
+	display: inline;
+}
+
 
 div.top_line {
   background-color: rgb( 92, 92, 92 );
- 
-  width: 41.31cm;
   height: 0.176cm;
   z-index: 3;
 }
@@ -93,14 +95,41 @@ div.row ul{
                    overflow: auto;
                    white-space: nowrap;
 }-->
+div.name_form,
+div.email_form{
+	display: inline;
+}
 
+div.subscribe {
+	display: block;
+	margin-bottom: auto;
+	background: #5c5c5c;
+	padding: 30px;
+	border-radius: 3px;
+	overflow: hidden;
+
+}
+
+div.row button {
+	background: #eee;
+	color: #fff;
+	background: #e24f43;
+	border-radius: 3px;
+}
+div.subscribe h1{
+	color: #ffffff;
+	display: inline;
+}
 div.row ul#display-inline-block,
-	ul#display-inline-block li {
+div.row ul#display-inline-block li,
+header ul.site_name,
+header ul.site_name li{
 		margin: 0;
 		padding: 0;
 	}
 
-div.row ul#display-inline-block li {
+div.row ul#display-inline-block li,
+header ul.site_name{
 		display: inline-block;
 		width: 100px;
 		min-height: 100px;
