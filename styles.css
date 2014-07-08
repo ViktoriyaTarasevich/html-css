@@ -100,8 +100,9 @@ div.top_line {
 }
 a{
 	text-decoration: none;
+    position: relative;
 }
-.button_home > a{
+div.button_home > a{
 
     color: #fff;
 	background: #e24f43;
@@ -119,13 +120,13 @@ footer{
     padding-left: 7px;
 
 }
-.row1, .row2{
+div.row1, div.row2{
     margin-bottom: 15%;
 }
 footer a{
 	margin-right:30px;
 }
-.row {
+div.row {
     margin-right: -15px;
     margin-left: -15px;
 }
@@ -148,26 +149,26 @@ div.row ul li{
     color: #cccccc;
 }
 
-.box1, .box2, .box3, .box4 {
+div.box1, div.box2, div.box3, div.box4 {
     width: 50%;
     height: 220px;
 
     float: left;
     position: relative;
 }
-.box1{
+div.box1{
     background: url(./images/1.png);
     background-size: 70%;
 }
-.box2{
+div.box2{
     background: url(./images/2.png);
     background-size: 70%;
 }
-.box3{
+div.box3{
     background: url(./images/3.png);
     background-size: 70%;
 }
-.box4{
+div.box4{
     background: url(./images/4.png);
     background-size: 70%;
 }
@@ -184,7 +185,7 @@ div.row ul li{
     position: absolute;
     bottom: 0;
 }
-.box4 h3{
+div.box4 h3{
     background: #e24f43;
 }
 
@@ -261,8 +262,11 @@ div.subscribe {
     position: relative;
 	border-radius: 3px;
 	overflow: hidden;
+    border-bottom: 1px solid #dfdfdf;
 }
-
+form.form_inline{
+    height: 20%;
+}
 div.row button {
 	background: #eee;
 	color: #fff;
@@ -361,10 +365,13 @@ div.block1, div.block2, div.block3, div.block4{
 }
 div.circle_image{
     border-top: 1px solid #dfdfdf;
+
 }
 div.circle_items{
     padding-top: 3.125%;
     padding-bottom: 3.125%;
+    margin-bottom: 100px;
+
 }
 div.circle_items h2,
 div.circle_items p{
@@ -372,10 +379,12 @@ div.circle_items p{
     display: inline-block;
     margin-left: 5%;
     margin-top: 5%;
+    width: 50%;
 }
 div.circle_items p {
     margin-top: 10%;
 }
+
 div.block1 ul  , div.block2 ul , div.block3 ul , div.block4 ul {
     display: inline;
 }
@@ -383,7 +392,8 @@ div.block1 ul li , div.block2 ul li, div.block3 ul li, div.block4 ul li {
     display: inline;
 }
 div.block1 img, div.block2 img, div.block3 img, div.block4 img {
-    width:25%;
+    width: 25%;
+    background-size: cover;
     display: inline-block;
 }
 div.block1, div.block2, div.block3, div.block4{
