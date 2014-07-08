@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{ font-size: 22px; }
-h2{ font-size: 20px;}
+h2{ font-size: 14px;}
 h3{ font-size: 14px;}
 h4{ font-size: 16px;}
 h5{ font-size: 14px;}
@@ -40,6 +40,7 @@ p{ font-size: 10px; font-family: 'source_sans_proregular'; color: #a5a5a5; margi
 a{
     transition:all 1s;
     color: #a5a5a5;
+    font-family: 'fjalla_oneregular;
 }
 div.columns_wrap{
     padding-top: 3.125%;
@@ -118,6 +119,9 @@ footer{
     padding-left: 7px;
 
 }
+.row1, .row2{
+    margin-bottom: 15%;
+}
 footer a{
 	margin-right:30px;
 }
@@ -183,9 +187,11 @@ div.row ul li{
 .box4 h3{
     background: #e24f43;
 }
+
 div.banner {
     background-repeat: no-repeat;
     background-image: url(./images/banner.jpg);
+    background-size: cover;
     height: 440px;
     border-radius: 5px;
 }
@@ -198,6 +204,19 @@ div.title_content ul{
 }
 div.title_content h3{
     color: #a5a5a5;
+}
+.picture_description a{
+    width: 30%;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+}
+a.btn a {
+    padding-top: 20%;
+}
+a.btn img{
+    padding-right: 10px;
+    width: 20%;
 }
 div.title{
     margin-top: 60px;
@@ -325,7 +344,6 @@ div.col{
     width: 22%;
     margin-left: 15px;
     margin-right: 5px;
-    
 }
 
 *, *:before, *:after {
@@ -346,22 +364,42 @@ div.circle_image{
 }
 div.circle_items{
     padding-top: 3.125%;
+    padding-bottom: 3.125%;
 }
-.block1 ul  , .block2 ul , .block3 ul , .block4 ul {
+div.circle_items h2,
+div.circle_items p{
+    position: absolute;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+div.circle_items p {
+    margin-top: 10%;
+}
+div.block1 ul  , div.block2 ul , div.block3 ul , div.block4 ul {
     display: inline;
 }
-
-.block1 ul li , .block2 ul li, .block3 ul li, .block4 ul li {
+div.block1 ul li , div.block2 ul li, div.block3 ul li, div.block4 ul li {
     display: inline;
 }
-.block1 img, .block2 img, .block3 img, .block4 img {
+div.block1 img, div.block2 img, div.block3 img, div.block4 img {
     width:25%;
     display: inline-block;
 }
-.block1, .block2, .block3, .block4{
+div.block1, div.block2, div.block3, div.block4{
     position: relative;
     min-height: 1px;
     display: inline;
     float: left;
     box-sizing: border-box;
 }
+nav.main_menu{
+    position: absolute;
+    right:  19%;
+    margin-top: 15px;
+
+}
+nav.main_menu ul li{
+    padding-right: 15px;
+}
+
