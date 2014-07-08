@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase;
     font-weight: lighter;
 }
+
 h1{ font-size: 22px; }
 h2{ font-size: 20px;}
 h3{ font-size: 14px;}
@@ -39,6 +40,12 @@ p{ font-size: 14px; font-family: 'source_sans_proregular'; color: #a5a5a5; margi
 a{
     transition:all 1s;
     color: #a5a5a5;
+}
+
+
+img.circle_image{
+    display: inline;
+    position: relative;
 }
 body{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -60,9 +67,19 @@ header{
 
 
 .form-control {
+    display:inline-block;
+    width: 30%;
+    height: 10%;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
     background-color: #ffffff;
     border: 1px solid #cccccc;
     border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 
 }
 div.menu nav.main_menu  li {
@@ -121,10 +138,7 @@ div.row ul li{
     margin-right: 4px;
     color: #cccccc;
 }
-img {
-    width:auto;
 
-}
 .box1, .box2, .box3, .box4 {
     width: 50%;
     height: 220px;
@@ -134,15 +148,19 @@ img {
 }
 .box1{
     background: url(./images/1.png);
+    background-size: 70%;
 }
 .box2{
     background: url(./images/2.png);
+    background-size: 70%;
 }
 .box3{
     background: url(./images/3.png);
+    background-size: 70%;
 }
 .box4{
     background: url(./images/4.png);
+    background-size: 70%;
 }
 .radi-c1 {
     border-radius: 5px 0 0 0;
@@ -200,6 +218,7 @@ div.row ul{
 div.name_form,
 div.email_form{
 	display: inline;
+    padding-right: 11px;
 }
 
 div.subscribe {
@@ -207,6 +226,7 @@ div.subscribe {
 	margin-bottom: auto;
 	background: #5c5c5c;
 	padding: 30px;
+    position: relative;
 	border-radius: 3px;
 	overflow: hidden;
 }
@@ -304,4 +324,31 @@ div.col{
 }
 div.picture_description{
     padding: 30px;
+}
+
+div.block1, div.block2, div.block3, div.block4{
+
+    width: 50%;
+}
+div.circle_image{
+    border-top: 1px solid #dfdfdf;
+
+}
+.block1 ul  , .block2 ul , .block3 ul , .block4 ul {
+    display: inline;
+}
+
+.block1 ul li , .block2 ul li, .block3 ul li, .block4 ul li {
+    display: inline;
+}
+.block1 img, .block2 img, .block3 img, .block4 img {
+    width:25%;
+    display: inline-block;
+}
+.block1, .block2, .block3, .block4{
+    position: relative;
+    min-height: 1px;
+    display: inline;
+    float: left;
+    box-sizing: border-box;
 }
