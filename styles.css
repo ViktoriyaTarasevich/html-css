@@ -35,14 +35,20 @@ h3{ font-size: 14px;}
 h4{ font-size: 16px;}
 h5{ font-size: 14px;}
 h6{ font-size: 8px; text-transform: none; color: #a5a5a5;}
-p{ font-size: 14px; font-family: 'source_sans_proregular'; color: #a5a5a5; margin-right:0; margin-bottom: 15px; line-height: 24px;}
+p{ font-size: 10px; font-family: 'source_sans_proregular'; color: #a5a5a5; margin-right:0; margin-bottom: 15px; line-height: 24px;}
 
 a{
     transition:all 1s;
     color: #a5a5a5;
 }
+div.columns_wrap{
+    padding-top: 3.125%;
+    padding-bottom: 3.125%;
+}
 
-
+div.col img{
+    width: 100%;
+}
 img.circle_image{
     display: inline;
     position: relative;
@@ -95,9 +101,8 @@ a{
 	text-decoration: none;
 }
 .button_home > a{
-	
-	background: #eee;
-	color: #fff;
+
+    color: #fff;
 	background: #e24f43;
 	border-radius: 3px;
 	
@@ -196,6 +201,8 @@ div.title_content h3{
 }
 div.title{
     margin-top: 60px;
+    padding-bottom: 3.125%;
+    border-bottom: 1px solid #dfdfdf;
 }
 div.red_button{
     display: inline-block;
@@ -218,7 +225,12 @@ div.row ul{
 div.name_form,
 div.email_form{
 	display: inline;
-    padding-right: 11px;
+    padding-right: 15px;
+}
+
+div.name_form h1{
+    padding-right: 50px;
+    padding-bottom: 15px;
 }
 
 div.subscribe {
@@ -226,6 +238,7 @@ div.subscribe {
 	margin-bottom: auto;
 	background: #5c5c5c;
 	padding: 30px;
+    height: 5%;
     position: relative;
 	border-radius: 3px;
 	overflow: hidden;
@@ -268,12 +281,10 @@ div.site_name li{
 
 div.menu{
     display: inline;
-    position: relative;
-    padding-top: 27px;
-    min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-top: -15px;
+    margin-top: 0;
+    padding-top: 0;
 }
 div.menu nav{
     display: inline;
@@ -311,9 +322,9 @@ div.col{
     transition: all 0.2s ease-in-out ;
     display: inline-block;
     position: relative;
-    width: 28%;
+    width: 22%;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right: 5px;
     
 }
 
@@ -332,7 +343,9 @@ div.block1, div.block2, div.block3, div.block4{
 }
 div.circle_image{
     border-top: 1px solid #dfdfdf;
-
+}
+div.circle_items{
+    padding-top: 3.125%;
 }
 .block1 ul  , .block2 ul , .block3 ul , .block4 ul {
     display: inline;
