@@ -60,9 +60,8 @@ body{
     line-height: 1.428571429;
     color: #333333;
     background-color: #ffffff;
-    margin-left: 19.09%;
-    margin-right:  19.09%;
-    margin-top: 0;
+    margin: 0 auto;
+    width: 835px;
 }
 ul{
     padding: 0;
@@ -91,6 +90,7 @@ header{
 }
 div.menu nav.main_menu  li {
 	display: inline;
+
 }
 
 div.top_line {
@@ -197,11 +197,12 @@ div.banner {
     border-radius: 5px;
 }
 div.title_content{
-    width: auto;
+    width: 60%;
     display: inline-block;
 }
 div.title_content ul{
     list-style: none;
+    margin: 0 auto;
 }
 div.title_content h3{
     color: #a5a5a5;
@@ -226,8 +227,8 @@ div.title{
 }
 div.red_button{
     display: inline-block;
-    position: absolute;
-    right: 19.09%;
+    margin: 0 auto;
+    float: right;
 
 }
 div.banner-item {
@@ -293,7 +294,7 @@ div.row ul#display_inline_block li{
 div.site_name{
     display: inline-block;  
     list-style: none;
-    width: 25%;
+
 }
 div.site_name li{
     margin-top: 0px;
@@ -304,13 +305,13 @@ div.site_name li{
 
 div.menu{
     display: inline;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-top: 0;
-    padding-top: 0;
+    margin: 0 auto;
+    padding-top: 15px;
+    float: right;
 }
 div.menu nav{
     display: inline;
+    margin-right: 15px;
 }
 div.menu nav ul{
     display: inline;
@@ -370,15 +371,14 @@ div.circle_image{
 div.circle_items{
     padding-top: 3.125%;
     padding-bottom: 3.125%;
-    margin-bottom: 100px;
 
 }
 div.circle_items h2,
 div.circle_items p{
-    position: absolute;
+
     display: inline-block;
-    margin-left: 5%;
-    margin-top: 5%;
+    position: absolute;
+    margin: 0 auto;
     width: 50%;
 }
 div.circle_items p {
@@ -402,12 +402,6 @@ div.block1, div.block2, div.block3, div.block4{
     display: inline;
     float: left;
     box-sizing: border-box;
-}
-nav.main_menu{
-    position: absolute;
-    right:  19%;
-    margin-top: 15px;
-
 }
 nav.main_menu ul li{
     padding-right: 15px;
