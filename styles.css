@@ -269,7 +269,12 @@ footer p {
 }
 
 .picture_description p {
-    padding-left: 10px;
+    padding-left: 15px;
+}
+
+.picture_description h3{
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 a.btn a {
@@ -456,17 +461,21 @@ li.button_home {
 .col{
     height: auto;
     max-width: 100%;
-    padding: 0;
+    padding:0 10px;
     float: left;
     overflow: hidden;
     line-height: 1.428571429;
     background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 4px;
+
     transition: all 0.2s ease-in-out ;
     display: inline-block;
     position: relative;
     width: 25%;
+}
+
+.col_content{
+    border: 1px solid #dddddd;
+    border-radius: 4px;
 }
 
 .col > img{
